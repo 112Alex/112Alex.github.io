@@ -1,0 +1,30 @@
+.Notation {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Notation__row {
+    display: flex;
+    flex-direction: row;
+}
+.Notation__item {
+    margin: 15px;
+}
+h4 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.Notation__picture {
+    width: 100%;
+}
+.Notation__header {
+    font-size: 22px;
+    margin-bottom: 7px;
+}
+.Notation-digits__row {
+    display: flex;
+}
+.Notation-digits__item {
+    margin-top: 25px;
+}
