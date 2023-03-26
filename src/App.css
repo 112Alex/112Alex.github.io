@@ -160,7 +160,6 @@ select {
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
 
 body {
     background-color: aliceblue;
@@ -168,22 +167,9 @@ body {
 }
 
 header {
-  z-index: 999;
-}
-
-.header__row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.header__row__item {
-    background-color: #D9D9D9;
-    border-radius: 15px;
-    padding: 5px;
-
-    font-size: 32px;
-    font-style: normal;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 button {
@@ -191,23 +177,29 @@ button {
     font-weight: 400;
 }
 
-.menu {
-  margin: 1in 0 0 0;
-  background: #D9D9D9;
-  width: 2in;
-  height: 6in;
-  border-radius: 0 15px 15px 0;
-
+.menu__item {
+  width: 150vh;
+  box-sizing: border-box;
+  background-color: #D9D9D9;
+  border-radius: 15px;
+  border: #aaaaaa 10px solid;
+  margin: 45px 0;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: calc(24px + 1 * (100vw / 1920));
   cursor: pointer;
 }
-
-.menu__row {
+.container {
   display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+  justify-content: center;
 }
-
-.menu__item {
-  padding: 0.4in 0 0 0.1in;
-  font-size: calc(24px + 1 * (100vw / 1920));
+.info {
+  width: 150vh;
+}
+.info h1 {
+  font-size: 42px;
+}
+.info p {
+  padding: 20px 0;
+  font-size: 30px;
 }

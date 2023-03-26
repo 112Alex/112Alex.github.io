@@ -2,7 +2,7 @@
     font-size: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-items: baseline;
 }
 .Notation__row {
     display: flex;
@@ -16,7 +16,7 @@ h4 {
     margin-bottom: 8px;
 }
 .Notation__picture {
-    width: 100%;
+    width: 70vh;
 }
 .Notation__header {
     font-size: 22px;
