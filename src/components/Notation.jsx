@@ -67,6 +67,10 @@ const Notation = function () {
               <div className="Notation-digits__row">
                 {content2} = {num2}
               </div>
+              <div className="Notattion-digits__row">
+                <br ></br>
+                <p>Ответ: минимальное значение = {Math.min(num8.toString(10), num16.toString(10), num2.toString(10))}</p>
+              </div>
             </div>
           </div>
           <div className="Notation__item">{}</div>
